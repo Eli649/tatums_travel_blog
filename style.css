@@ -15,12 +15,15 @@ h3{
 
 /* Background Color of Body */
 body{
-    background-color: #F9DB58;
+    background-color: #cccc99;
 }
 
 /* Gradient for Article */
 article{
     background-image: linear-gradient(to right, #FDF1BD , #DBEEDB);
+    border-radius: 0.75em;
+    padding: 1px;
+    box-shadow: 5px 5px #cccccc;
 }
 
 /* Background Image, size and color for Header Tag */
@@ -28,6 +31,10 @@ header{
     background-image: url(https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80);
     background-size: cover;
     color: white;
+    border-radius: 0.75em;
+    padding: 1px;
+    box-shadow: 5px 5px #cccccc;
+    text-shadow: 1px 1px #fdbebe;
 }
 
 /* Link Styles */
@@ -36,6 +43,20 @@ a{
     text-decoration:none; 
 }
 
+/* Images */
+img{
+    display: block;
+    height: 20%;
+    border: 3px solid #f1492c;
+    border-radius: 0.75em;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px #ffe0e0;
+}
+
+/* - */
+.subheading {
+    border-bottom: 1px solid #f1492c;
+}
 
 
 
